@@ -59,7 +59,7 @@ Countries analyzed: **United States**, **India**, **Kenya**
 
 1. Clone the repo:
    ```bash
-    git clone https://github.com/KabeloMatlakala/Week-8-Python-Covid19-Data-Tracker.git
+    git clone https://github.com/KabeloMatlakala/Python-Covid19-Data-Tracker.git
     cd Week-8-Python-Covid19-Data-Tracker
    ```
 2. (Optional but recommended) Create and activate a virtual environment:
@@ -104,5 +104,6 @@ import zipfile
 with zipfile.ZipFile("owid-covid-data.csv.zip", "r") as zip_ref:
     zip_ref.extractall()
 ```
+
 
 
